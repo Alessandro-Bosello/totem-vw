@@ -16,7 +16,7 @@ fastify.register(require('fastify-static'), {
 
 fastify.register(require('fastify-socket.io'), {
   cors: {
-    origin: "http://localhost:8080",
+    origin: "http://localhost:3000",
     methods: ["GET", "POST"],
   }
 })
@@ -64,7 +64,7 @@ fastify.ready(err => {
   });
 })
 
-fastify.listen(8080, function (err, address) {
+fastify.listen(port, function (err, address) {
   if (err) {
     fastify.log.error(err)
     process.exit(1)
