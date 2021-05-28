@@ -44,6 +44,7 @@
       </template>
     </vueper-slides>
     <!-- Connect server <button @click="connectServer()">Connect Server</button>-->
+    <template> prova </template>
   </div>
 </template>
 
