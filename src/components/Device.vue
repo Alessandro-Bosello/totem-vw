@@ -50,7 +50,7 @@
 
 <script>
 import io from "socket.io-client";
-var socket = io("http://localhost:8000");
+var socket = io(process.env.VUE_APP_DOMAIN);
 import { VueperSlides, VueperSlide } from "vueperslides";
 import "vueperslides/dist/vueperslides.css";
 
