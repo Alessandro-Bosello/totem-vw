@@ -158,7 +158,7 @@ export default {
   },
   name: "totem",
   created() {
-    var socket = io("http://localhost:3000");
+    var socket = io("http://localhost:8000");
     // server-side
     socket.on("Totem", (conn) => {
       console.log(conn);
