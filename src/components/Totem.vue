@@ -56,7 +56,7 @@
             <vue-qrcode
               class="bb"
               :margin="0"
-              value="https://sand-hickory-cloth.glitch.me/?fromQRcode"
+              value="https://test-volkswagen.glitch.me/#/device"
             />
           </div>
         </div>
